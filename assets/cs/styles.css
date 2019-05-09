@@ -44,7 +44,10 @@ input{
     width: 100%;
     padding: 13px 13px 13px 20px;
     box-sizing: border-box;
+    border: 3px solid rgba(0,0,0,0);
+
 }
+.
 input:focus{
     background: white;
     border: 3px solid pink;
@@ -59,12 +62,14 @@ body{
     background: #E8CBC0;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #636FA4, #E8CBC0);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #636FA4, #E8CBC0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
 }
 #container{
     width: 45%;
     margin: 100px auto;
     background-color: lightgrey;
     box-shadow: 0 0 10px rgba(#ff0000, #008000, #0000ff, 0.1);
+}
+.completed{
+    color: purple;
+    text-decoration: line-through;
 }
