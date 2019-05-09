@@ -29,13 +29,14 @@ span{
     color: purple;
     width: 0;
     display: inline-block;
+    transition: 0.2s linear;
+    opacity: 0;
 }
 li:hover span{
     width: 40px;
+    opacity: 1.0;
 }
-.li:hover + .fa-trash{
-    display: inline-block;
-}
+
 input{
     font-size: 18px;
     color:blue;
